@@ -18,4 +18,15 @@ $ git stash list
 $ git add .
 git commit -m "create indes file changed in feature"
 Sl. No Experi
-123
+3
+Vi pgm6.c
+Git add pgm6.c
+Git commit –m “program 6”
+Git branch feature-branch
+Git checkout feature-branch
+Vi pgm6b.c
+Git add pgm6b.c
+Git commit –m “pgm 6b feature branch”
+git checkout master
+git merge --no-ff feature-branch -m "Your custom merge commit message"
+6
