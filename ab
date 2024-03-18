@@ -1,1 +1,27 @@
-
+$ echo "I am in 11a" >> lab11a.txt
+$ echo " I am in 11b " >> lab11b.txt
+$ echo " I am in 11c " >> lab11c.txt
+$ echo " I am in 11d " >> lab11d.txt
+$ echo " I am in 11e " >> lab11e.txt
+git add .
+$ git commit -m "create indes file"
+$ git log –n 5
+11
+$ git checkout master
+$ echo "I am in 9a" >> lab9a.txt
+git add .
+$ git commit -m " I am in 9a branch master "
+$ git branch cherry
+$ git log
+$ git checkout cheery
+$ echo "I am in 9b" >> lab9b.txt
+git add .
+$ git commit -m " I am in 9b branch cheery "
+$ echo "I am in 9c" >> lab9c.txt
+git add .
+$ git commit -m " I am in 9c branch cheery "
+$ git checkout master
+$ git log
+$ git cherry-pick f7b46493e18b1dd58703830637ae9d3e615adbde
+$ git log
+9
