@@ -1,1 +1,21 @@
-
+vi index.txt
+git add .
+$ git commit -m "create indes file"
+$ git branch feature
+$ git checkout feature
+vi feature.txt
+git add.
+$ git commit -m "work in progress"
+$ git index.txt
+git checkout main
+git stash
+Git status
+git stash list
+git checkout main
+git checkout feature
+git stash pop
+$ git stash list
+$ git add .
+git commit -m "create indes file changed in feature"
+Sl. No Experi
+123
