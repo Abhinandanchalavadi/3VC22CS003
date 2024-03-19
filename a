@@ -65,4 +65,5 @@ git branch -d b2
 git merge b2
 git branch --merged
 git branch -d b2
+2
 
